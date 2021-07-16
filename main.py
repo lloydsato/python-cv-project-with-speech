@@ -61,7 +61,7 @@ p.add_run(experience_details)
 
 # Adding skills
 document.add_heading("Skills")
-speak(f"Enter your skill")
+speak("Enter your skill")
 skill = input("Enter your skill\n")
 p = document.add_paragraph(skill)
 p.style = 'List Bullet'
